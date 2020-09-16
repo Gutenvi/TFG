@@ -1,0 +1,9 @@
+/*******PARSE CAN FRAMES CSV DOCUMENT******************/
+
+./parse -[file] -[destination directory] -X
+
+X is 1 if candump_110.csv
+     2 if candump_120.csv
+     3 if candump_130.csv
+     4 if candump_140.csv
+     5 if candump.csv

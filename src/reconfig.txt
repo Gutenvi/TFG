@@ -1,0 +1,33 @@
+#KEY_OR_TRIGGER= KEYBOARD(0) TRIGGER_PIN(1) BOTH(2)
+#SAMPLES_PER_SECOND MUST NOT BE OVER 45 (APROXIMATION)
+#RECONFIG MUST BE TRUE TO SEND NEW CAN FRAMES
+##############################################
+RECONFIG= no
+NUM_DIGITALS= 1
+NUM_ANALOGS= 1
+KEY_OR_TRIGGER= 2
+STOP_TRIGGER= 1
+DIGITAL_SAMPLES_PER_SECOND= 1
+ANALOG_SAMPLES_PER_SECOND= 1
+##############################################
+MOTOR_ID= undefined
+TYPE_OF_CONTROL= undefined
+POSITION/TORQUE_SET_POINT= undefined
+STIFFNESS_SET_POINT= undefined
+##############################################
+RIGHT_HIP_MIN_ANGLE= undefined
+RIGHT_KNEE_MIN_ANGLE= undefined
+RIGHT_ANKLE_MIN_ANGLE= undefined
+LEFT_HIP_MIN_ANGLE= undefined
+LEFT_KNEE_MIN_ANGLE= undefined
+LEFT_ANKLE_MIN_ANGLE= undefined
+##############################################
+RIGHT_HIP_MAX_ANGLE= undefined
+RIGHT_KNEE_MAX_ANGLE= undefined
+RIGHT_ANKLE_MAX_ANGLE= undefined
+LEFT_HIP_MAX_ANGLE= undefined
+LEFT_KNEE_MAX_ANGLE= undefined
+LEFT_ANKLE_MAX_ANGLE= undefined
+##############################################
+START/STOP_CAN_DATA= undefined
+##############################################

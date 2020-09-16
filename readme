@@ -1,0 +1,4 @@
+1. Go into include/wiringPi and ./build as root
+2. make
+3. check reconfig.txt parameters
+4. ./candump
